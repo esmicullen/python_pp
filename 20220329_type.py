@@ -1,0 +1,47 @@
+#숫자
+student_number = 2110
+age = 18
+height = 167.3
+
+#문자
+name = '정가현'
+
+print(f'학번 : {student_number} \n이름 : {name} \n나이 : {age} \n키 : {height}')
+
+print(type(student_number))
+print(type(name))
+print(type(age))
+print(type(height)) #float
+print(type(10.27)) #float
+print(type(10)) #int
+print(type('1027')) #class str
+print(10/27) #2.7
+print(27/10) #몫 2
+print(27//10) #나머지 7
+print(type(10/27)) #float
+print(type(10/27))  #int
+print(type(10/27))  #float
+
+#변수 이름 규칙, 자료형 변환
+#my_mbti, my_function, myClass #myMbti : camel-case,my_mbti : snake-case
+
+my_mbti = 'INFP'
+print(f'my_mbti: ${my_mbti}')
+
+
+print(f'my_mbti: '+my_mbti+'age'+str(age)) #java : String.toString(age); , python : str(age)
+height = '176.6'
+
+print(float(height) + 10) #java : Float.perseFloat(height); python : float(height)
+
+#str(), int(), float() : 자료형 변환 함수
+# + 연산자 : 숫자 + 숫자 => 덧셈, 문자 + 문자 => 문자문자
+# * 연산자 : 숫자 * 숫자 => 곱셉, 문자 * 숫자 => 문자를 숫자만큼 반복
+
+print(18+2) #20
+print('18'+'2') #182
+print(18*2) #36
+print('2'*4) #'2222'
+
+#짝을 10번 출력
+print('짝' * 10)
