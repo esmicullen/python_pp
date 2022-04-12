@@ -73,7 +73,7 @@ print(ys.real) #9.0
 print(hj.real) #-3.0
 print(hj.conjugate()) #켤레복소수
 print(hj*hj.conjugate()) #(58+0j) = 49 + (-3j x 3j) = 49 + 9 = (58 + 0j)
-print(type(ys))
+print(type(ys)) #
 
 
 
