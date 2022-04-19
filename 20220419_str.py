@@ -65,3 +65,14 @@ print(ip_list_str)
 name_list_str = '|'.join(name_list)
 print(name_list_str)
 
+#format
+s = 'name: {},number: {}, soccer: {}'
+print(format('손흥민', 7, True))
+
+s = 'name: {1},number: {2}, soccer: {0}'
+print(format('손흥민', 7, True))
+
+s = 'name: {name},number: {n}, soccer: {s}'
+print(format(name='손흥민', n=7, s=True))
+#46 연습
+
