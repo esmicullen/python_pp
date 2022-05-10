@@ -62,7 +62,7 @@ player.sort()
 print(player)
 player.reverse()
 print(player)
-#*********************8
+#*********************
 a = range(14)
 print(a)
 a2 = list(a)
