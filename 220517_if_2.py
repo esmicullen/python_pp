@@ -64,12 +64,15 @@
 # elif x <= 10:
 #     print(f'{x}는 10 이하')
 
-nick = input('사용자 이름 설정')
-nid = input('아이디를 입력해주세요 : ')
+print("----[초기 설정]----")
+nick = input('사용자 이름 설정 : ')
+nid = input('아이디를 설정해주세요 : ')
 password = input('비밀번호를 설정해주세요 : ')
 
-reid = input('아이디를 다시 입력해주세요 : ')
-repassword = input('비밀번호를 다시 입력해주세요 : ')
+print("----[로그인 화면]----")
+
+reid = input('아이디를 입력해주세요 : ')
+repassword = input('비밀번호를 입력해주세요 : ')
 
 if nid == reid:
     if password == repassword:
@@ -78,3 +81,4 @@ if nid == reid:
         print('패스워드 불일치')
 else:
     print('아이디 불일치, How are you?')
+print("ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ")
