@@ -73,6 +73,6 @@ s = 'name: {1},number: {2}, soccer: {0}'
 print(format('손흥민', 7, True))
 
 s = 'name: {name},number: {n}, soccer: {s}'
-print(format(name='손흥민', n=7, s=True))
+#print(format(name='손흥민', n=7, s=True))
 #46 연습
 
