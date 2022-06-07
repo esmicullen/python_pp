@@ -12,11 +12,11 @@
 # #학번 -> 학년, 반, 학과, 번호 출력
 # stu_num = input()
 # gwa = ''
-# if stu_num[0]=='1' or stu_num[0]=='2':
+# if stu_num[1]=='1' or stu_num[1]=='2':
 #     gwa = '뉴미디어소프트웨어과'
-# elif stu_num[0]=='3' or stu_num[0]=='4':
+# elif stu_num[1]=='3' or stu_num[1]=='4':
 #     gwa = '뉴미디어솔루션과'
-# elif stu_num[0]=='5' or stu_num[0]=='6':
+# elif stu_num[1]=='5' or stu_num[1]=='6':
 #     gwa = '뉴미디어디자인과'
 # else:
 #     gwa = '존재하지 않는 학과'
