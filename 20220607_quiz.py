@@ -15,7 +15,7 @@
 # if stu_num[1]=='1' or stu_num[1]=='2':
 #     gwa = '뉴미디어소프트웨어과'
 # elif stu_num[1]=='3' or stu_num[1]=='4':
-#     gwa = '뉴미디어솔루션과'
+#     gwa = '뉴미디어웹솔루션과'
 # elif stu_num[1]=='5' or stu_num[1]=='6':
 #     gwa = '뉴미디어디자인과'
 # else:
@@ -25,6 +25,9 @@
 # print(f'{stu_num[0]}학년 {stu_num[1]}반 {gwa} {stu_num[3]}번')
 
 #이프문 안쓰고
+# majors = ['', '뉴미디어소프트웨어과', '뉴미디어소프트웨어과','뉴미디어웹솔루션과', '뉴미디어웹솔루션과', '뉴미디어디자인과', '뉴미디어디자인과']
+# index = int(stu_num[1])
+# g = majors[index]
 
 print('-'*30)
 
