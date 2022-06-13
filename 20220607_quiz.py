@@ -33,7 +33,26 @@ print('-'*30)
 
 #입력하면 끝까지 더함
 su = input()
-sum = 0
+sum1 = 0
 for i in range(0,len(su),1):
-    sum = sum + int(su[i])
-print(sum)
+    sum1 = sum1 + int(su[i])
+print(sum1)
+
+for number in range(1,100+1):
+    number_s = str(number)
+    for ch in number_s:
+        if ch == '3' or ch == '6' or ch == '9':
+            print('짝')
+        else:
+            print(ch, end='')
+    print()
+
+count = 0
+for number in range(1,100+1):
+    if ch == '3' or ch == '6' or ch == '9':
+       count += 1
+
+if count == 0:
+    print(number)
+else:
+    print('짝'* count)
