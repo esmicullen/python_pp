@@ -56,3 +56,8 @@ if count == 0:
     print(number)
 else:
     print('짝'* count)
+
+def gugudan(dan):
+    for a in range(1,9+1):
+        print(f'{dan} x {a} = {dan*a}')
+gugudan(5)
